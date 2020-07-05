@@ -12,8 +12,10 @@ on:
   release:
     types: [published]
   push:
-    branches:- dev-lean-lede
-    paths:- '.config'
+    branches:
+      - dev-lean-lede
+    paths:
+      - '.config'
   schedule:
     - cron: 0 8 * * 5
   watch:
